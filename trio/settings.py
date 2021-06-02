@@ -146,7 +146,7 @@ STATICFILES_DIRS = [
     'trio/static',
 ]
 
-STATIC_ROOT = '/var/www/home/Angshu/static'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
