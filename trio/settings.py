@@ -146,7 +146,7 @@ STATICFILES_DIRS = [
     'trio/static',
 ]
 
-STATIC_ROOT = '/home/Angshu/static'
+STATIC_ROOT = '/var/www/home/Angshu/static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
